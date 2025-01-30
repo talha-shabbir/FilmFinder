@@ -9,4 +9,4 @@ A React-based web application for browsing and discovering movies. Users can sea
 - **User Authentication**: Register and log in to manage favorites.
 
 ## API Integration
-This app fetches movie data from an external movie API (e.g., TMDb API) to provide up-to-date information on movies, including search functionality and detailed movie pages.
+This app fetches movie data from an external movie API (TMDb API) to provide up-to-date information on movies, including search functionality and detailed movie pages.
