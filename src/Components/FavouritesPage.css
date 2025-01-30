@@ -1,0 +1,37 @@
+.favorites-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie-card {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .no-favorites {
+    text-align: center;
+    font-size: 20px;
+    color: #ccc;
+  }
+  

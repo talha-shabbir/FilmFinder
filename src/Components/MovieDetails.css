@@ -1,0 +1,152 @@
+.movie-details-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .movie-details-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .movie-details-poster {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie-details-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .movie-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .movie-tagline {
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .movie-rating {
+    font-size: 20px;
+    color: #ff9900;
+    margin-bottom: 15px;
+  }
+  
+  .movie-overview {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .additional-details {
+    margin-top: 30px;
+  }
+  
+  .additional-details h3 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .detail-item {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .movie-details-header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .movie-details-poster {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .movie-details-info {
+      align-items: center;
+    }
+  
+    .movie-title {
+      font-size: 28px;
+    }
+  
+    .movie-tagline {
+      font-size: 16px;
+    }
+  
+    .movie-rating {
+      font-size: 18px;
+    }
+  }
+  body {
+    background-color: #121212;
+    color: white;
+  }
+  
+  .movie-details {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  /* Add styles for the favorite button */
+.favorite-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+  }
+  
+  .favorite-button:hover {
+    background-color: #ff4b2b;
+  }
+  
+  .favorited {
+    background-color: #ff4b2b;
+  }
+  
+    
